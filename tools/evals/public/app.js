@@ -943,10 +943,10 @@ function createIterationCard(iteration) {
   // Links
   const links = [];
   if (iteration.pr && iteration.pr !== 'null') {
-    links.push(`<a href="https://github.com/chronick/duopulse/pull/${iteration.pr.replace('#', '')}" class="card-link" target="_blank">View PR ${iteration.pr}</a>`);
+    links.push(`<a href="https://github.com/algonormative/duopulse/pull/${iteration.pr.replace('#', '')}" class="card-link" target="_blank">View PR ${iteration.pr}</a>`);
   }
   if (iteration.commit && iteration.commit !== 'null') {
-    links.push(`<a href="https://github.com/chronick/duopulse/commit/${iteration.commit}" class="card-link" target="_blank"><code>${iteration.commit.substring(0, 7)}</code></a>`);
+    links.push(`<a href="https://github.com/algonormative/duopulse/commit/${iteration.commit}" class="card-link" target="_blank"><code>${iteration.commit.substring(0, 7)}</code></a>`);
   }
   if (iteration.branch && iteration.branch !== 'null') {
     links.push(`<span class="card-link"><code>${iteration.branch}</code></span>`);

@@ -209,7 +209,7 @@ export function renderTimelineChart(history, width = 800, height = 300) {
               year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
             });
 
-            const githubUrl = fullHash ? \`https://github.com/chronick/duopulse/commit/\${fullHash}\` : '';
+            const githubUrl = fullHash ? \`https://github.com/algonormative/duopulse/commit/\${fullHash}\` : '';
 
             tooltip.innerHTML = \`
               <div style="margin-bottom: 8px;">
